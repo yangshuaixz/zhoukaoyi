@@ -1,0 +1,204 @@
+/* line 1, style.scss */
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  overflow: hidden;
+  -webkit-flex-direction: column; }
+
+/* line 11, style.scss */
+.header {
+  font-size: .16rem;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: center;
+  position: relative;
+  background: #ef2b2c;
+  color: #fff; }
+
+/* line 20, style.scss */
+.back {
+  position: absolute;
+  left: .1rem;
+  color: #fff;
+  font-size: .18rem; }
+
+/* line 26, style.scss */
+.march {
+  position: absolute;
+  top: 0;
+  right: .1rem;
+  color: #fff; }
+  /* line 31, style.scss */
+  .march i {
+    font-size: .18rem; }
+
+/* line 36, style.scss */
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #fff; }
+
+/* line 41, style.scss */
+.banner {
+  width: 100%;
+  height: .8rem; }
+  /* line 44, style.scss */
+  .banner img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  /* line 49, style.scss */
+  .banner .swiper-pagination-bullet-active {
+    background: #ef2b2c; }
+
+/* line 53, style.scss */
+.section {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  /* line 57, style.scss */
+  .section .conts {
+    width: 100%;
+    height: auto; }
+    /* line 60, style.scss */
+    .section .conts .seek {
+      width: 100%;
+      height: auto;
+      padding-left: .15rem; }
+      /* line 64, style.scss */
+      .section .conts .seek b {
+        display: block;
+        width: .03rem;
+        background: #ef2b2c;
+        padding: .06rem 0;
+        float: left;
+        margin-top: .07rem;
+        margin-right: .05rem; }
+      /* line 73, style.scss */
+      .section .conts .seek p {
+        padding: .06rem 0 .06rem 0;
+        font-size: .11rem;
+        font-weight: bold; }
+
+/* line 81, style.scss */
+.temp {
+  display: flex; }
+  /* line 83, style.scss */
+  .temp li {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: .1rem; }
+    /* line 90, style.scss */
+    .temp li i {
+      font-size: .2rem; }
+    /* line 93, style.scss */
+    .temp li span {
+      display: block;
+      font-size: .08rem;
+      margin-top: .05rem; }
+  /* line 100, style.scss */
+  .temp li:nth-child(1) i {
+    color: orange; }
+  /* line 105, style.scss */
+  .temp li:nth-child(2) i {
+    color: #8bc0f7; }
+  /* line 110, style.scss */
+  .temp li:nth-child(3) i {
+    color: #56c6ff; }
+  /* line 114, style.scss */
+  .temp li:nth-child(4) {
+    border-right: 1px solid #ccc; }
+    /* line 116, style.scss */
+    .temp li:nth-child(4) i {
+      color: #47d4b1; }
+
+/* line 121, style.scss */
+.temps {
+  display: flex; }
+  /* line 123, style.scss */
+  .temps li {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: .1rem; }
+    /* line 130, style.scss */
+    .temps li i {
+      font-size: .2rem; }
+    /* line 133, style.scss */
+    .temps li span {
+      display: block;
+      font-size: .08rem;
+      margin-top: .05rem; }
+  /* line 141, style.scss */
+  .temps li:nth-child(1) i {
+    color: #fe7aa2; }
+  /* line 146, style.scss */
+  .temps li:nth-child(2) i {
+    color: #7aaeff; }
+
+/* line 151, style.scss */
+.tempa {
+  display: flex; }
+  /* line 153, style.scss */
+  .tempa li {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: .1rem; }
+    /* line 160, style.scss */
+    .tempa li i {
+      font-size: .2rem; }
+    /* line 163, style.scss */
+    .tempa li span {
+      display: block;
+      font-size: .08rem;
+      margin-top: .05rem; }
+  /* line 170, style.scss */
+  .tempa li:nth-child(1) i {
+    color: #8894f6; }
+  /* line 175, style.scss */
+  .tempa li:nth-child(2) i {
+    color: #46c0f8; }
+  /* line 180, style.scss */
+  .tempa li:nth-child(3) i {
+    color: #8894f6; }
+  /* line 184, style.scss */
+  .tempa li:nth-child(4) {
+    border-right: 1px solid #ccc; }
+
+/* line 188, style.scss */
+.footer {
+  height: .45rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  background: #fff; }
+  /* line 193, style.scss */
+  .footer .footer-nav {
+    display: -webkit-flex; }
+    /* line 195, style.scss */
+    .footer .footer-nav li {
+      flex: 1;
+      color: #37bc9b;
+      font-size: .12rem;
+      color: #ff3d3d;
+      padding-top: 5px; }
+      /* line 201, style.scss */
+      .footer .footer-nav li span {
+        display: block;
+        margin-top: .05rem; }
+      /* line 205, style.scss */
+      .footer .footer-nav li i {
+        font-size: .16rem; }
+
+/*# sourceMappingURL=style.css.map */
